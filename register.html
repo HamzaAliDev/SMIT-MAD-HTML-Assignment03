@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+    th {
+        padding: 5px 16px 10px;
+    }
+</style>
+
+<body>
+    <header style="text-align: center; ">
+        <nav>
+            <table border="2px" style=" display: inline-block; text-align: center;">
+                <thead>
+                    <tr>
+                        <th><b>Hamza Networks</b></th>
+                        <th><a href="index.html"> Home </a></th>
+                        <th><a href="about.html"> About </a></th>
+                        <th><a href="gallery.html"> Gallery </a></th>
+                        <th><a href="media.html"> Media </a></th>
+                        <th><a href="contact.html"> Contact </a></th>
+                        <th><a href="login.html"> Login </a></th>
+                        <th><a href="register.html"> Register </a></th>
+                    </tr>
+                </thead>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <div style="text-align: center;">
+            <h1>This is Login page</h1>
+            <hr />
+            <h2>Please register to continue</h2>
+            <p>All the fields are required</p>
+            <hr />
+        </div>
+        <div>
+            <form>
+                <fieldset style="width: 200px; height: 560px;margin-left: auto;margin-right: auto;">
+                    <legend>Register</legend>
+                    <label for="name">Full Name:</label> <br />
+                    <input type="text" name="Full_Name" id="name" placeholder="Full Name" /> <br /><br />
+                    <label for="email">Email:</label> <br />
+                    <input type="email" name="Register_Email" id="email" placeholder="Email" /> <br /><br />
+                    <label for="password">Password:</label> <br />
+                    <input type="password" name="Reg_password" id="password" placeholder="Password" /> <br /><br />
+                    <label for="gender">Gender:</label> <br />
+                    <label for="male">Male:</label>
+                    <input type="radio" name="gender" id="male" value="male" />
+                    <label for="female">Female:</label>
+                    <input type="radio" name="gender" id="female" value="female" /> <br /><br />
+                    <label for="">Hobbies:</label> <br />
+                    <label for="music">Music:</label>
+                    <input type="checkbox" name="hobbies" id="music" value="music" />
+                    <label for="art">Art</label>
+                    <input type="checkbox" name="hobbies" id="art" value="art" />
+                    <label for="painting">Painting</label>
+                    <input type="checkbox" name="hobbies" id="painting" value="painting" /> <br /><br />
+                    <label for="country">Country:</label>  <br />
+                    <select name="country" id="country">
+                        <option value="pakistan">Pakistan</option>
+                        <option value="Australia">Australia</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        
+                    </select>  <br /><br />
+                    <label for="dob">DOB:</label> <br />
+                    <input type="date" name="dob" id="dob" />  <br /><br />
+                    <label for="photo">Upload your photo:</label> <br />
+                    <input type="file" name="photo" id="photo" /> <br /><br />
+                    <button>Register</button>  <br /><br />
+                    <a href="">Already a user?</a>
+
+                </fieldset>
+            </form>
+            <hr />
+        </div>
+    </main>
+    <footer>
+        <p style="text-align: center;">copyright&copy; 2024. All rights reserved. </p>
+    </footer>
+
+</body>
+
+</html>
